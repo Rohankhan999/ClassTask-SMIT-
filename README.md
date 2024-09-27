@@ -1,0 +1,2 @@
+# ClassTask-SMIT-
+CLASS KA TASK
