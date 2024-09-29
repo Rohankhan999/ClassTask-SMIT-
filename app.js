@@ -1,17 +1,41 @@
 // // CLASS_TASK//
 
-// // var str = "hello!"
-// // var str1 = "world!"
-// // var task = str.slice(0,1).toUpperCase() + str.slice(1);
-// // var task2 = str1.slice(0,1).toUpperCase() + str1.slice(1)
-// // console.log(task, task2);
+  //task 01//
+// var str = prompt("Enter a sentence:"); 
+// var words = str.split(" ");
+// var capitalizedWords = []; 
 
-// // task02//
+// for (var i = 0; i < words.length; i++) {
+//     var word = words[i];
+//      var capitalizedWord = word.charAt(0).toUpperCase() + word.slice(1);
+//     capitalizedWords.push(capitalizedWord); 
+// }
 
-var letters = "saylani mass it Traning";
-for (var i = 0; letters.length; i++) {
-    if (letters.slice(i, i + 7) === "Traning"); {
-        document.write("<h1>"+ "found!" + "</h1>");
-        break; 
-    }
-}
+// var result = capitalizedWords.join(" "); 
+// console.log(result); 
+
+
+
+
+// task02//
+
+// var letters = "Saylani mass it Traning";
+// for (var i = 0; i < letters.length; i++) { 
+//     if (letters.slice(i, i + 7) === "Saylani") { 
+//         document.write("<h1>" + "found!" + "</h1>");
+//         break; 
+//     }
+// }
+
+
+// task03//
+
+var paragraph = "This is an example paragraph. Saylani is mentioned here.";
+
+var index = paragraph.indexOf("Saylani");
+
+console.log(index);
+
+
+
+//TASK 04 //
