@@ -29,20 +29,22 @@
 
 
 // task03//
-var text = "Hello I Am saylani Mass It Training Student"
-var word = text.indexOf("saylani");
-// console.log(word)
-for (var i = 0; i < text.length; i++){
-    if(text.indexOf(word) === "saylani"){
-        
-       break;
-    }
 
+
+
+
+var text = "hello i am saylani mass it training student";
+var firstChar = text.indexOf("saylani");
+
+if (firstChar !== -1) {
+    document.write("Found Saylani");
+} else {
+    document.write("Saylani not found");
 }
 
 
 //TASK 04 //
 
-var text = " hello i'm a student of saylani malir campus karachi ";
-var word = text.replace("saylani","SMIT");
-console.log(word);
+// var text = " hello i'm a student of saylani malir campus karachi ";
+// var word = text.replace("saylani","SMIT");
+// console.log(word);
