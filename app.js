@@ -3,12 +3,12 @@
   //task 01//
 // var str = prompt("Enter a sentence:"); 
 // var words = str.split(" ");
-// var capitalizedWords = []; 
+// var capital = []; 
 
 // for (var i = 0; i < words.length; i++) {
 //     var word = words[i];
-//      var capitalizedWord = word.charAt(0).toUpperCase() + word.slice(1);
-//     capitalizedWords.push(capitalizedWord); 
+//      var capital = word.charAt(0).toUpperCase() + word.slice(1);
+//     capital.push(capital); 
 // }
 
 // var result = capitalizedWords.join(" "); 
@@ -29,13 +29,16 @@
 
 
 // task03//
+var text = "Hello I Am saylani Mass It Training Student"
+var word = text.indexOf("saylani");
+// console.log(word)
+for (var i = 0; i < text.length; i++){
+    if(text.indexOf(word) === "saylani"){
+        
+       break;
+    }
 
-// var paragraph = "This is an example paragraph. Saylani is mentioned here.";
-
-// var index = paragraph.indexOf("Saylani");
-
-// console.log(index);
-
+}
 
 
 //TASK 04 //
