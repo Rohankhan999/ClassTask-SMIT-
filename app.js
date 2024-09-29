@@ -30,12 +30,16 @@
 
 // task03//
 
-var paragraph = "This is an example paragraph. Saylani is mentioned here.";
+// var paragraph = "This is an example paragraph. Saylani is mentioned here.";
 
-var index = paragraph.indexOf("Saylani");
+// var index = paragraph.indexOf("Saylani");
 
-console.log(index);
+// console.log(index);
 
 
 
 //TASK 04 //
+
+var text = " hello i'm a student of saylani malir campus karachi ";
+var word = text.replace("saylani","SMIT");
+console.log(word);
